@@ -7,7 +7,7 @@ It includes the full end-to-end workflow of training a model, converting it for
 use with TensorFlow Lite for Microcontrollers for running inference on a
 microcontroller.
 
-It is based on the book [*TinyML* by Pete Warden and Danil Situnayake (O'Reilly)](https://www.oreilly.com/library/view/tinyml/9781492052036/) 
+It is based on the book [*TinyML*](https://www.oreilly.com/library/view/tinyml/9781492052036/) by Pete Warden and Danil Situnayake (O'Reilly)]
 
 The model is trained to replicate a `sine` function and generates a pattern of
 data to either blink LEDs or control an animation, depending on the capabilities
@@ -15,7 +15,7 @@ of the device.
 
 ## Deploy to microcontroller boards
 
-The  folder stm32F769NI folder cotains the code and [instructions](stm32F769NI/README_MBED.md) to help you build and deploy the sample to the [STM32F769 discovery kit](https://www.st.com/en/evaluation-tools/32f769idiscovery.html)
+The folder stm32F769NI cotains the code and [instructions](stm32F769NI/) to help you build and deploy the sample to the [STM32F769 discovery kit](https://www.st.com/en/evaluation-tools/32f769idiscovery.html)
 using [ARM Mbed](https://github.com/ARMmbed/mbed-cli).
 
 ## Train your own model
